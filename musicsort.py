@@ -3,7 +3,6 @@ import eyed3
 import os
 import shutil
 
-# \Users\Public\Music
 @click.command()
 @click.option('-s', '--src-dir', default='.', help='Исходный каталог', show_default=True)
 @click.option('-d', '--dst-dir', default='.', help='Целевой каталог', show_default=True)
